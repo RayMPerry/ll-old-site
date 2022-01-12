@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "NewYork";
+    src: url("fonts/NewYork.otf");
+}
+
+@font-face {
+    font-family: "DukasCFBold";
+    src: url("fonts/DukasCFBold-Regular.woff");
+}
+
+.headline-font {
+    font-family: "NewYork", serif;
+}
+
+.subheadline-font {
+    font-family: "DukasCFBold", sans-serif;
+}
+
+a:visited {
+  color: black;
+}
