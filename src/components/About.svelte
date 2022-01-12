@@ -19,7 +19,7 @@
     <br/>
     <p class="f3 subheadline-font">Do you have a roadmap of some kind?</p>
     <p class="f4">
-        <img class="w-100" alt="Labyrinth Labels Roadmap" src="/assets/Roadmap.png" />
+        <img class="w-100" alt="Labyrinth Labels Roadmap" src="./assets/Roadmap.png" />
     </p>
     <br/>
 </div>
