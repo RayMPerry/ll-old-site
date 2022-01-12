@@ -4,11 +4,13 @@
     import Footer from './Footer.svelte';
 </script>
 
-<Header />
-<div class="pa4">
-    <Router />
+<div class="min-h-100 pb5 w-100 relative">
+    <Header />
+    <div class="pa4">
+        <Router />
+    </div>
+    <Footer />
 </div>
-<Footer />
 
 <style>
     

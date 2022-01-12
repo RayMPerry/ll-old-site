@@ -2,18 +2,24 @@
     import { onMount } from 'svelte';
     import Home from './Home.svelte';
     import About from './About.svelte';
+    import Characters from './Characters.svelte';
+    import Landing from './Landing.svelte';
 
     const PATHS = {
-      STORE: '/',
-      ABOUT: '/about'
+      CHAPTERS: '/chapters',
+      ABOUT: '/about',
+      CHARACTERS: '/characters',
+      LANDING: '/'
     };
     
     const routes = {
-      [PATHS.STORE]: Home,
-      [PATHS.ABOUT]: About
+      [PATHS.CHAPTERS]: Home,
+      [PATHS.ABOUT]: About,
+      [PATHS.CHARACTERS]: Characters,
+      [PATHS.LANDING]: Landing
     };
     
-    const defaultRoute = PATHS.STORE;
+    const defaultRoute = PATHS.LANDING;
     let currentComponent;
     
     const hashChange = () => {
